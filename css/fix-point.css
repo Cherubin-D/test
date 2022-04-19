@@ -1,0 +1,123 @@
+.intro
+{
+	text-align: left;
+	display: flex;
+	margin: 120px;
+	margin-top: 140px;
+	margin-bottom: 90px;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	height: 200px;
+}
+.intro p, .intro li {
+	font-size: 20px;
+}
+.intro li {
+	margin: 10px;
+}
+.description {
+	width: 700px;
+}
+.mission ul {
+	padding-left: 12.5px;
+}
+h4 {
+	font-family: Kanit;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 0px;
+}
+
+h5 {
+	font-family: Convergence;
+	/*font-weight: bold;*/
+	font-size: 20px;
+	margin: 0px;
+}
+
+h5::before
+{
+	content: "";
+	background-image: url("../projets/svg/menu.svg");
+	background-size: cover;
+	height: 20px;
+	width: 20px;
+	top: 2.5px;
+	right: 10px;
+	display: inline-block;
+	position: relative;
+	/*margin:10px auto;*/
+}
+.img {
+	overflow: hidden;
+	/*position: relative;*/
+	background-image: url(../images/minia1.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 100%;
+
+}
+.galerie img {
+	border-radius: 5px;
+}
+
+#mockup img {
+	height: 350px;
+	width: auto;
+}
+
+.croquis img {
+	height:300px ;
+	margin-left: 30px;
+	border-radius: 5px;
+}
+.croquis {
+
+}
+
+h6 {
+	text-align: left;
+	margin-left: 150px;
+	font-family: Convergence;
+	/*font-style: italic;*/
+	font-size: 20px;
+}
+
+h6::before
+{
+	content: "";
+	background-image: url("../images/svg/icon2_n.svg");
+	background-size: cover;
+	height: 25px;
+	width: 18px;
+	top: 5px;
+	right: 10px;
+	display: inline-block;
+	position: relative;
+	transform: rotate(180deg);
+	/*margin:10px auto;*/
+}
+
+.blanc {
+	background-color: var(--grisfonce);
+	border-radius: 5px;
+	margin-bottom: -10px;
+	padding-top: 10px;
+}
+
+#typo {
+	width: 60%;
+}
+
+#autres {
+	display: flex;
+	justify-content: space-around;
+	margin: 35px 0px;
+}
+#autres .minia {
+	height: 280px;
+	width: 280px;
+}
